@@ -5,6 +5,9 @@
 **Started:** Feb 17, 2025  
 
 ## Week 1 — Python Fundamentals + Setup
-- [ ] Install GitHub Copilot
-- [ ] First API call
-- [ ] 30 Days of Python — Days 1–9
+
+### Day 1 ✅ Feb 17
+- [x] GitHub repo created
+- [x] GitHub Copilot installed  
+- [x] day1.py — math operations + data types
+- [x] Learned: print(), type(), int, float, str, bool, list

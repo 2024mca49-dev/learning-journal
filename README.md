@@ -11,3 +11,10 @@
 - [x] GitHub Copilot installed  
 - [x] day1.py — math operations + data types
 - [x] Learned: print(), type(), int, float, str, bool, list
+
+### Day 2 ✅ Feb 18
+- [x] Variables — declaring and using
+- [x] len(), input(), min(), max(), sum()
+- [x] Casting — int(), float(), str()
+- [x] Circle area + circumference
+- [x] Key insight: input() always returns string → use int(input()) for numbers

@@ -13,8 +13,8 @@
 - [x] Learned: print(), type(), int, float, str, bool, list
 
 ### Day 2 ✅ Feb 18
-- [x] Variables — declaring and using
-- [x] len(), input(), min(), max(), sum()
-- [x] Casting — int(), float(), str()
-- [x] Circle area + circumference
-- [x] Key insight: input() always returns string → use int(input()) for numbers
+- [x] 30-Days Python Day 2 — Variables, casting, built-ins
+- [x] 30-Days Python Day 3 — Operators, Booleans, comparisons
+- [x] Built triangle, rectangle, circle calculators
+- [x] Learned: ==, !=, and, or, not, in, %, type checking
+- [x] Key insight: comparison operators return True/False — foundation for API logic

@@ -18,3 +18,10 @@
 - [x] Read Claude API docs — Intro + Quickstart
 - [x] Learned: API key, messages structure, models (Opus/Sonnet/Haiku)
 - [x] Ready to make first API call tomorrow
+
+### Day 3 ✅ Feb 19
+- [x] 30-Days Python Day 4 — Strings (concatenation, slicing, f-strings, methods)
+- [x] Learned: .strip(), .split(), .replace(), string indexing
+- [x] Used Copilot Chat to understand my MCA scanner.py file
+- [x] Key insight: f-strings are THE way to format — will use for API responses
+- [x] Key insight: Copilot Chat can explain any code — even my own old code

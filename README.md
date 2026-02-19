@@ -15,6 +15,6 @@
 ### Day 2 ✅ Feb 18
 - [x] 30-Days Python Day 2 — Variables, casting, built-ins
 - [x] 30-Days Python Day 3 — Operators, Booleans, comparisons
-- [x] Built triangle, rectangle, circle calculators
-- [x] Learned: ==, !=, and, or, not, in, %, type checking
-- [x] Key insight: comparison operators return True/False — foundation for API logic
+- [x] Read Claude API docs — Intro + Quickstart
+- [x] Learned: API key, messages structure, models (Opus/Sonnet/Haiku)
+- [x] Ready to make first API call tomorrow

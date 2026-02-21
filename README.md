@@ -34,15 +34,47 @@
 - [x] Key insight: `.strip()` cleans whitespace — critical for user input and API data
 - [x] Key insight: `.split()` converts strings to lists — essential for parsing API responses
 - [x] Key insight: Lists are mutable (can change), strings are immutable (cannot change)
-- [x] Key insight: Copilot Chat can explain any code — even my own old code
+
+### Day 4 ✅ Feb 20
+- [x] 30-Days Python Day 6 — Tuples (immutable sequences, unpacking)
+- [x] 30-Days Python Day 7 — Sets (unique items, union, intersection, difference)
+- [x] 30-Days Python Day 8 — Dictionaries (key-value pairs, nested dicts, JSON structure)
+- [x] Read MDN Web Docs — "How the Web Works" + "What is an API?"
+- [x] Learned Tuples: immutable, `.count()`, `.index()`, unpacking, when to use (coordinates, config)
+- [x] Learned Sets: `add()`, `update()`, `remove()`, `discard()`, `union()`, `intersection()`, `difference()`, `symmetric_difference()`
+- [x] Learned Dictionaries: `[]` vs `.get()`, `.keys()`, `.values()`, `.items()`, nested access, safe key checking with `in`
+- [x] **CRITICAL:** Understood that API responses are dictionaries — `response["content"][0]["text"]`
+- [x] **CRITICAL:** Understood client/server model and HTTP request/response cycle
+- [x] **CRITICAL:** Understood JSON = Python dictionary
+- [x] Key insight: Use `.get()` for safe API response parsing
+- [x] Key insight: Sets remove duplicates automatically — `set(list_with_dupes)`
+- [x] Key insight: Tuples protect data from accidental changes (API config, credentials)
+- [x] Advanced: Chained set operations for complex data filtering (production-level logic)
+- [x] Advanced: Nested dictionary navigation — ready for real API responses
 
 ---
 
 ## Stats So Far
 
-**Days completed:** 3  
-**Python concepts mastered:** Variables, operators, strings, lists, functions, comparisons, booleans  
-**Lines of code written:** ~200+  
-**GitHub commits:** 4  
+**Days completed:** 4  
+**Python concepts mastered:** Variables, operators, strings, lists, tuples, sets, dictionaries, functions, comparisons, booleans  
+**Data structures understood:** All 4 collection types (list, tuple, set, dict)  
+**Lines of code written:** ~500+  
+**GitHub commits:** 5  
 **Copilot uses:** Understanding MCA project  
-**Ready for:** First Claude API call (Day 4)
+**Ready for:** First Claude API call! (Day 5)
+
+---
+
+## What I've Built So Far
+
+**day1.py** — Math operations, data types  
+**day2.py** — Variables, casting, user input, circle calculations  
+**day3.py** — Operators, booleans, triangle/rectangle/circle calculators  
+**day4.py** — Strings (all methods), f-strings, escape sequences, API text extraction  
+**day5.py** — Lists (all operations), slicing, IT companies analysis, ages statistics  
+**day6.py** — Tuples, unpacking, family members, coordinates  
+**day7.py** — Sets, unique values, multiple query intersection (API simulation)  
+**day8.py** — Dictionaries, nested data, API response extraction, user profiles  
+
+**Total:** 8 Python files, 500+ lines of code, all exercises completed

@@ -53,7 +53,7 @@
 - [x] Advanced: Nested dictionary navigation — ready for real API responses
 
 ### Day 5 ✅ Feb 21
-- [x] 30-Days Python Day 8 + Day 9 — Functions (definition, parameters, return values)
+- [x] 30-Days Python Day 11 — Functions (definition, parameters, return values)
 - [x] Built 5 functions from scratch WITHOUT Copilot
 - [x] Learned: `def`, parameters, `return`, default parameters, keyword arguments
 - [x] Functions created: circle area calculator, acronym maker, email validator, duplicate remover, API text extractor
@@ -63,4 +63,14 @@
 - [x] **CRITICAL:** Can now write functions that process API responses
 - [x] **CRITICAL:** Built muscle memory by coding without AI assistance
 
+### Day 6 ✅ Feb 24 (Week 2 Day 1)
+- [x] 30-Days Python Day 10 — Loops (for, while, break, continue, range)
+- [x] Completed 7 loop challenges including nested loops and API response processing
+- [x] Learned: `for` loop through lists/dicts/strings, `while` loop, `range()`, `break`, `continue`
+- [x] Built: Triangle pattern generator, multiplication table, even number filter, sum accumulator
+- [x] **CRITICAL:** API response processing loop — filtered valid responses, calculated total tokens, found max
+- [x] Key insight: Loops are how you process multiple API responses
+- [x] Key insight: Accumulator pattern (sum += value) is fundamental
+- [x] Key insight: Nested loops for 2D data structures
+- [x] Advanced: Used `end=""` in print for same-line output
 ---

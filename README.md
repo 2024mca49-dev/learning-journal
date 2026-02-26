@@ -64,13 +64,17 @@
 - [x] **CRITICAL:** Built muscle memory by coding without AI assistance
 
 ### Day 6 ✅ Feb 24 (Week 2 Day 1)
-- [x] 30-Days Python Day 10 — Loops (for, while, break, continue, range)
-- [x] Completed 7 loop challenges including nested loops and API response processing
-- [x] Learned: `for` loop through lists/dicts/strings, `while` loop, `range()`, `break`, `continue`
-- [x] Built: Triangle pattern generator, multiplication table, even number filter, sum accumulator
-- [x] **CRITICAL:** API response processing loop — filtered valid responses, calculated total tokens, found max
-- [x] Key insight: Loops are how you process multiple API responses
-- [x] Key insight: Accumulator pattern (sum += value) is fundamental
-- [x] Key insight: Nested loops for 2D data structures
-- [x] Advanced: Used `end=""` in print for same-line output
+- [x] 30-Days Python Day 10 — Loops (for, while, break, continue, range, nested loops)
+- [x] 30-Days Python Day 12 — Modules (import, creating modules, built-in modules)
+- [x] Created custom module `string_utils.py` with reusable functions
+- [x] Learned Loops: `for`, `while`, `range()`, `break`, `continue`, nested loops, accumulator pattern
+- [x] Learned Modules: `import`, `from...import`, `os`, `sys`, `math`, `random`, `datetime`, `json`
+- [x] Built: Triangle pattern, multiplication table, API response processor
+- [x] Built: Random ID generator, RGB color generator, timestamp logger, JSON parser
+- [x] **CRITICAL:** Processed API responses with loops + parsed JSON (real API workflow!)
+- [x] **CRITICAL:** Created reusable module structure (how real projects are organized!)
+- [x] Key insight: Modules = code reusability, every library you use is a module
+- [x] Key insight: `json.loads()` converts API JSON string → Python dict
+- [x] Key insight: `datetime.now()` for API call logging
+- [x] Advanced: Used list comprehension with `join()` for ID generation
 ---

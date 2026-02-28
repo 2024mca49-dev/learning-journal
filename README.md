@@ -63,7 +63,7 @@
 - [x] **CRITICAL:** Can now write functions that process API responses
 - [x] **CRITICAL:** Built muscle memory by coding without AI assistance
 
-### Day 6 ✅ Feb 24 (Week 2 Day 1)
+### Day 6 ✅ Feb 23 (Week 2 Day 1)
 - [x] 30-Days Python Day 10 — Loops (for, while, break, continue, range, nested loops)
 - [x] 30-Days Python Day 12 — Modules (import, creating modules, built-in modules)
 - [x] Created custom module `string_utils.py` with reusable functions
@@ -77,4 +77,23 @@
 - [x] Key insight: `json.loads()` converts API JSON string → Python dict
 - [x] Key insight: `datetime.now()` for API call logging
 - [x] Advanced: Used list comprehension with `join()` for ID generation
+### Day 7 ✅ Feb 24 (Week 2 Day 2)
+- [x] 30-Days Python Day 13 — List Comprehension (one-line list creation with conditions)
+- [x] 30-Days Python Day 14 — Higher Order Functions (lambda, map, filter, reduce)
+- [x] **FIRST REAL API CALL** — Called GitHub API with `requests` library
+- [x] Learned List Comprehension: `[x*2 for x in nums if x > 0]`, nested comprehension for flattening
+- [x] Learned Lambda: Anonymous functions `lambda x: x**2`
+- [x] Learned map(): Transform all items `map(lambda x: x.upper(), names)`
+- [x] Learned filter(): Keep only matching items `filter(lambda x: x > 0, nums)`
+- [x] Learned reduce(): Combine all items into one `reduce(lambda a,b: a+b, nums)`
+- [x] **CRITICAL:** Made HTTP GET request to real API
+- [x] **CRITICAL:** Parsed JSON response with `response.json()`
+- [x] **CRITICAL:** Checked status codes (200 = success)
+- [x] **CRITICAL:** Used `.get()` for safe data extraction
+- [x] Built: Chained map+filter+reduce for API data processing
+- [x] Built: GitHub profile data fetcher and JSON file saver
+- [x] Key insight: API calls = (1) send request (2) check status (3) parse JSON (4) extract data
+- [x] Key insight: List comprehension is faster and cleaner than loops
+- [x] Key insight: Functional programming (map/filter/reduce) is how you process API responses at scale
+- [x] Advanced: Chained 3 operations in one line (filter → map → reduce)
 ---

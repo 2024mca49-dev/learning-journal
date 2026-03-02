@@ -96,4 +96,18 @@
 - [x] Key insight: List comprehension is faster and cleaner than loops
 - [x] Key insight: Functional programming (map/filter/reduce) is how you process API responses at scale
 - [x] Advanced: Chained 3 operations in one line (filter → map → reduce)
+
+### Day 8 ✅ Feb 26 (Week 2 Day 3)
+- [x] 30-Days Python Day 17 — Exception Handling (try/except/finally, error types)
+- [x] Understood Claude API call pattern and structure
+- [x] Learned Exception Handling: `try/except/finally`, catching specific errors, `Exception as e`
+- [x] Built: Exception handlers for ValueError, ZeroDivisionError, KeyError, ConnectionError, FileNotFoundError
+- [x] **CRITICAL:** try/except is MANDATORY for all API calls in production
+- [x] **CRITICAL:** Understood API call pattern: (1) try request (2) check status (3) parse response (4) handle errors
+- [x] **CRITICAL:** Always use specific exception types (ConnectionError, Timeout, etc.) for better error handling
+- [x] Key insight: Graceful error handling prevents app crashes
+- [x] Key insight: `finally` block for cleanup code (close files, connections) that ALWAYS runs
+- [x] Key insight: GitHub API call = same pattern as Claude API call (different endpoint, same structure)
+- [x] Reviewed Claude API structure: client.messages.create() → response.content[0].text
+- [x] Ready to integrate APIs into FastAPI projects next week
 ---

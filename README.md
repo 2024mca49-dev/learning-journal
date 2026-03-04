@@ -126,6 +126,7 @@
 - [x] Key insight: OOP pattern used in ALL production AI applications
 - [x] Advanced: Built interactive CLI with while loop and exit conditions
 - [x] Advanced: Wrapped external API in custom class interface
+
 ### Day 10 ✅ Feb 28 (Week 2 Day 5)
 - [x] Completed Claude 101 course on Anthropic Academy (13 lessons, 1 hour)
 - [x] Read FastAPI documentation — Introduction + First Steps
@@ -140,24 +141,29 @@
 - [x] Key insight: OpenAPI schema generated automatically for all endpoints
 - [x] Understood: GET (fetch), POST (create), PUT (update), DELETE (delete)
 - [x] Ready to build first FastAPI application on Saturday
+### Day 11 ✅ Mar 1 (Week 2 - Saturday)
+- [x] Built Gemini Summarizer project — AI-powered topic summarizer CLI tool
+- [x] **Project Features:**
+  - Takes user input (any topic)
+  - Calls Gemini API for 3-point summary
+  - Saves summaries to timestamped text files
+  - Interactive loop with exit command
+  - Full error handling (missing API key, network errors, invalid input)
+- [x] **Code Organization:**
+  - `GeminiSummarizer` class with 4 methods
+  - Clean separation: init → get_summary → save_summary → run
+  - Professional project structure with README
+- [x] **Security Best Practices:**
+  - API key in `.env` file (not hardcoded)
+  - `.gitignore` to protect secrets
+  - `python-dotenv` for environment management
+- [x] **CRITICAL:** Built complete project from scratch with proper structure
+- [x] **CRITICAL:** Used OOP to encapsulate functionality
+- [x] **CRITICAL:** Implemented production-level error handling
+- [x] Key insight: Real projects need README, .gitignore, requirements.txt
+- [x] Key insight: Classes make code professional and maintainable
+- [x] Key insight: Always protect API keys with environment variables
+- [x] Pushed to GitHub with full documentation
 
----
-
-## 🎉 WEEK 2 COMPLETE! 🎉
-
-**Python Mastery:**
-- All 6 essential Python days completed (10, 12, 13, 14, 17, 21)
-- Built CLI AI assistant with Gemini API
-- Exception handling for production code
-- Object-oriented programming mastered
-
-**FastAPI Foundation:**
-- Read and understood FastAPI basics
-- Ready to build real APIs next week
-
-**Week 3 Preview:**
-- Build FastAPI backend with AI integration
-- Create endpoints that call Gemini
-- Deploy your first production API
 ---
 

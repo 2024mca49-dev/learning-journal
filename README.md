@@ -99,34 +99,33 @@
 
 ### Day 8 ✅ Feb 26 (Week 2 Day 3)
 - [x] 30-Days Python Day 17 — Exception Handling (try/except/finally, error types)
-- [x] Understood Claude API call pattern and structure
+- [x] **Made first AI API call with Gemini API** — Called gemini-2.5-flash model
 - [x] Learned Exception Handling: `try/except/finally`, catching specific errors, `Exception as e`
 - [x] Built: Exception handlers for ValueError, ZeroDivisionError, KeyError, ConnectionError, FileNotFoundError
+- [x] Built: Gemini API caller with environment variable management (.env file)
 - [x] **CRITICAL:** try/except is MANDATORY for all API calls in production
-- [x] **CRITICAL:** Understood API call pattern: (1) try request (2) check status (3) parse response (4) handle errors
-- [x] **CRITICAL:** Always use specific exception types (ConnectionError, Timeout, etc.) for better error handling
+- [x] **CRITICAL:** Understood API call pattern: (1) load API key (2) create client (3) send request (4) handle response
+- [x] **CRITICAL:** Used `python-dotenv` to securely load API keys from environment
 - [x] Key insight: Graceful error handling prevents app crashes
-- [x] Key insight: `finally` block for cleanup code (close files, connections) that ALWAYS runs
-- [x] Key insight: GitHub API call = same pattern as Claude API call (different endpoint, same structure)
-- [x] Reviewed Claude API structure: client.messages.create() → response.content[0].text
-- [x] Ready to integrate APIs into FastAPI projects next week
+- [x] Key insight: Never hardcode API keys — use environment variables
+- [x] Key insight: Gemini API = same pattern as any AI API (Claude, OpenAI, etc.)
 
 ### Day 9 ✅ Feb 27 (Week 2 Day 4)
 - [x] 30-Days Python Day 21 — Classes and Objects (OOP, `__init__`, methods, self)
+- [x] **Built CLI AI Assistant using OOP** — Interactive Gemini chatbot in terminal
 - [x] **PYTHON THEORY COMPLETE!** — All essential concepts mastered
 - [x] Learned Classes: `class`, `__init__`, `self`, instance variables, methods
 - [x] Built: Book class with description method
 - [x] Built: API Client class with call tracking and success rate calculation
 - [x] Built: Student grade tracker with average and best subject finder
-- [x] **CRITICAL:** Understood how libraries like `anthropic`, `fastapi` are structured internally
+- [x] Built: **GeminiAssistant class** — encapsulated API client in reusable class
 - [x] **CRITICAL:** Classes organize related data and functions together (encapsulation)
-- [x] **CRITICAL:** Each object has its own data (self.variable)
-- [x] Key insight: Every library you use is built with classes (`client.method()`)
-- [x] Key insight: Classes = blueprints, objects = instances created from blueprints
-- [x] Key insight: `self` allows each object to store its own unique data
-- [x] Advanced: Used generator expressions in class methods (`sum(1 for x in list if condition)`)
-- [x] Advanced: Added defensive programming (check if list empty before division)
-- [x] Advanced: Tracked API call success rates (200-299 status codes)
+- [x] **CRITICAL:** Interactive loop with user input → API call → response display
+- [x] **CRITICAL:** Each object has its own data (self.client stores API connection)
+- [x] Key insight: Classes make code reusable — create once, use many times
+- [x] Key insight: OOP pattern used in ALL production AI applications
+- [x] Advanced: Built interactive CLI with while loop and exit conditions
+- [x] Advanced: Wrapped external API in custom class interface
 
 ---
 
@@ -134,8 +133,9 @@
 
 **Week 2 Summary:**
 - Days 10, 12, 13, 14, 17, 21 — All essential Python concepts mastered
-- Real GitHub API call made successfully
+- Real GitHub API call + Gemini AI API call made successfully
 - Exception handling for production-ready code
 - Object-oriented programming understood
+- Interactive CLI AI assistant built with classes
 - **Ready for FastAPI and real project building!**
 ---

@@ -165,5 +165,21 @@
 - [x] Key insight: Always protect API keys with environment variables
 - [x] Pushed to GitHub with full documentation
 
+### Days 12-14 ✅ Mar 2-4 (Week 3 Days 1-3)
+- [x] FastAPI Tutorial — First Steps, Path Parameters, Query Parameters
+- [x] FastAPI Tutorial — Request Body with Pydantic models
+- [x] FastAPI Tutorial — Error Handling with HTTPException
+- [x] Built 3 complete FastAPI applications (one per day)
+- [x] **Monday:** Basic routes with path/query parameters
+- [x] **Tuesday:** POST endpoint with JSON validation using Pydantic
+- [x] **Wednesday:** Notes API with CRUD operations and 404 handling
+- [x] **CRITICAL:** Understood FastAPI core: routes → Pydantic → validation → response
+- [x] **CRITICAL:** Automatic interactive docs at `/docs` for testing
+- [x] **CRITICAL:** Type hints = automatic validation (no manual checks!)
+- [x] Key insight: Pydantic models validate data automatically
+- [x] Key insight: HTTPException returns proper HTTP status codes
+- [x] Key insight: FastAPI does all validation/conversion/docs for you
+- [x] All apps tested successfully with interactive Swagger UI
+
 ---
 

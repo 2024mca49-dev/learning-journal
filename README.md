@@ -181,5 +181,18 @@
 - [x] Key insight: FastAPI does all validation/conversion/docs for you
 - [x] All apps tested successfully with interactive Swagger UI
 
+### Days 15-16 ✅ Mar 4-5 (Week 3 Days 4-5)
+- [x] Dependencies pattern in FastAPI
+- [x] Set up Supabase project and PostgreSQL database
+- [x] Created `notes` table with proper schema
+- [x] Built complete CRUD API connected to Supabase
+- [x] **5 Operations:** POST, GET (all), GET (one), PUT, DELETE
+- [x] **CRITICAL:** Full backend API with real database (production-ready!)
+- [x] **CRITICAL:** Learned Row Level Security (RLS) in Supabase
+- [x] **CRITICAL:** Environment variables for API keys (.env)
+- [x] Key insight: CRUD = foundation of all backend APIs
+- [x] Key insight: Supabase = PostgreSQL + instant API
+- [x] Key insight: Every app needs Create, Read, Update, Delete
+- [x] All endpoints tested successfully with `/docs`
 ---
 

@@ -194,5 +194,19 @@
 - [x] Key insight: Supabase = PostgreSQL + instant API
 - [x] Key insight: Every app needs Create, Read, Update, Delete
 - [x] All endpoints tested successfully with `/docs`
+### Day 17 ✅ Mar 6 (Week 3 Day 6)
+- [x] JWT Authentication implementation
+- [x] POST `/register` - Create user with hashed password
+- [x] POST `/login` - Returns JWT token
+- [x] Protected all `/notes` endpoints with token verification
+- [x] Created `users` table in Supabase
+- [x] Linked notes to users (`user_email` column)
+- [x] **CRITICAL:** JWT = token-based authentication (no sessions!)
+- [x] **CRITICAL:** Bearer token in Authorization header
+- [x] **CRITICAL:** Each user sees only their own notes
+- [x] Key insight: `Depends(verify_token)` = protect any endpoint
+- [x] Key insight: Password hashing prevents storing plain passwords
+- [x] Key insight: Tokens expire (30 min) for security
+- [x] Tested complete auth flow: register → login → get token → use protected endpoints
 ---
 

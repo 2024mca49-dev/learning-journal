@@ -208,5 +208,49 @@
 - [x] Key insight: Password hashing prevents storing plain passwords
 - [x] Key insight: Tokens expire (30 min) for security
 - [x] Tested complete auth flow: register → login → get token → use protected endpoints
+
+### Day 18 ✅ Mar 7 (Week 3 Day 7 - Saturday)
+- [x] **DEPLOYED to Render.com** - API is LIVE on the internet! 🌍
+- [x] Created render.yaml for deployment configuration
+- [x] Set up environment variables on Render (SUPABASE_URL, SUPABASE_KEY)
+- [x] Successfully deployed FastAPI app with Supabase connection
+- [x] **Live URL:** https://fastapi-notes-api-tnh4.onrender.com
+- [x] **CRITICAL:** Full-stack app now accessible from anywhere in the world
+- [x] **CRITICAL:** Production deployment with free tier on Render
+- [x] Tested all endpoints on live URL (/docs works online!)
+- [x] Key insight: GitHub → Render auto-deployment (push code → auto deploys)
+- [x] Key insight: Environment variables kept secret (not in code)
+- [x] Key insight: Render provides free PostgreSQL + web hosting
+
+---
+
+## 🎉 WEEK 3 COMPLETE! 🎉
+
+**Week 3 Achievements:**
+- ✅ FastAPI fundamentals mastered (routes, Pydantic, validation)
+- ✅ Full CRUD API built and tested
+- ✅ Supabase PostgreSQL database connected
+- ✅ JWT authentication implemented (register, login, protected endpoints)
+- ✅ **DEPLOYED to production** - Live on the internet!
+- ✅ Complete backend ready for frontend integration
+
+**Tech Stack Mastered:**
+- FastAPI, Pydantic, Supabase, JWT, Python-Jose, Uvicorn, Render.com
+
+---
+
+### Day 19 ✅ Mar 9 (Week 4 Day 1 - Monday)
+- [x] Read javascript.info - Chapters 1-4 (Hello World, Variables, Data types, Functions)
+- [x] Practiced JavaScript in browser console (F12)
+- [x] Created first HTML + JavaScript file (practice.html)
+- [x] Built interactive button with onclick alert
+- [x] Learned: let vs const, arrays, objects, functions
+- [x] Learned: Arrow functions `() => {}`
+- [x] Learned: DOM manipulation with `getElementById`
+- [x] **CRITICAL:** JavaScript runs in browser, Python runs on server
+- [x] **CRITICAL:** onclick connects HTML to JavaScript functions
+- [x] Key insight: `let` for variables that change, `const` for constants
+- [x] Key insight: Arrays `[1,2,3]` and Objects `{name: "value"}`
+- [x] Pushed to GitHub: javascript-practice repo
 ---
 
